@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="books.css" rel="stylesheet" />
+    <title>JavaScript DOM Tutorials</title>
+    <style>
+        .slider{
+            margin: 30px auto;
+            height: 400px;
+            width:720px;
+            overflow: hidden;
+        }
+        .slide-container{
+            width:4000px;
+            height: 400px;
+            display:block;
+            margin:0;
+            padding: 0;
+        }
+        .slides{
+            list-style-type: none;
+            width: 720px;
+            float:left;
+            height:400px;
+        }
+     </style>
+  </head>
+  <body>
+        <div class='slider'>
+            <ul class="slide-container">
+                    <!-- <li class="slides"><img src="Pictures/1.jpeg"></li> -->
+                    <li class="slides"><img src="Pictures/2.jpeg" width="720px" height="400px"></li>
+                    <li class="slides"><img src="Pictures/4.jpeg" width="720px" height="400px"></li>
+                    <li class="slides"><img src="Pictures/3.jpeg" width="720px" height="400px"></li>
+                    <li class="slides"><img src="Pictures/5.jpeg" width="720px" height="400px"></li>
+            </ul>
+        </div>
+    <script src="jquery/jquery-3.4.1.js"></script>
+    <script src="jquery/querys.js"></script>
+    </body>
+</html>
