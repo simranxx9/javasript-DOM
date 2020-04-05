@@ -6,3 +6,5 @@
 
 ## Made project on ...
 > Adding , Deleting and searching the books.
+> Design looks like:
+![img](https://github.com/simranxx9/javasript-DOM/blob/jquery/Pictures/bookroma.png)
